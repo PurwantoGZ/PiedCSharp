@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiepCSharp.App", "PiepCSharp.App\PiepCSharp.App.csproj", "{995EDF4E-8B34-4DF6-9B50-C35B4DA49BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "Compression\Compression.csproj", "{A9D0EC49-C25B-473A-B40B-729D38D2E845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "..\..\FANN\FANN\NeuralNetwork\NeuralNetwork.csproj", "{70377A23-05C0-4745-AC28-00AD07531D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995EDF4E-8B34-4DF6-9B50-C35B4DA49BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995EDF4E-8B34-4DF6-9B50-C35B4DA49BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995EDF4E-8B34-4DF6-9B50-C35B4DA49BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995EDF4E-8B34-4DF6-9B50-C35B4DA49BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D0EC49-C25B-473A-B40B-729D38D2E845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D0EC49-C25B-473A-B40B-729D38D2E845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D0EC49-C25B-473A-B40B-729D38D2E845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D0EC49-C25B-473A-B40B-729D38D2E845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70377A23-05C0-4745-AC28-00AD07531D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70377A23-05C0-4745-AC28-00AD07531D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70377A23-05C0-4745-AC28-00AD07531D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70377A23-05C0-4745-AC28-00AD07531D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
