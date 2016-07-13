@@ -1,0 +1,17 @@
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\PeidCSharp.exe.config
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\PeidCSharp.exe
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\PeidCSharp.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.csprojResolveAssemblyReference.cache
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.Properties.Resources.resources
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.csproj.GenerateResource.Cache
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.exe
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\Compression.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\NeuralNetwork.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\ZedGraph.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\NeuralNetwork.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\Compression.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.MainView.resources
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\obj\Debug\PeidCSharp.CompView.resources
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\Algorithm.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PeidCSharp\bin\Debug\Algorithm.pdb
