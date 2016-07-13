@@ -1,0 +1,5 @@
+E:\MYDESK\PiedCSharp\PiepCSharp\Algorithm\bin\Debug\Algorithm.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\Algorithm\bin\Debug\Algorithm.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\Algorithm\obj\Debug\Algorithm.csprojResolveAssemblyReference.cache
+E:\MYDESK\PiedCSharp\PiepCSharp\Algorithm\obj\Debug\Algorithm.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\Algorithm\obj\Debug\Algorithm.pdb
