@@ -1,0 +1,4 @@
+E:\MYDESK\PiedCSharp\PiepCSharp\Compression\bin\Debug\Compression.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\Compression\bin\Debug\Compression.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\Compression\obj\Debug\Compression.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\Compression\obj\Debug\Compression.pdb
