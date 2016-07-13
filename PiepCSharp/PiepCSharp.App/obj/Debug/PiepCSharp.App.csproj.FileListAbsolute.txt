@@ -1,0 +1,11 @@
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\PiepCSharp.App.exe.config
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\PiepCSharp.App.exe
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\PiepCSharp.App.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\Compression.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\Compression.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\obj\Debug\PiepCSharp.App.csprojResolveAssemblyReference.cache
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\obj\Debug\PiepCSharp.App.exe
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\obj\Debug\PiepCSharp.App.pdb
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\NeuralNetwork.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\ZedGraph.dll
+E:\MYDESK\PiedCSharp\PiepCSharp\PiepCSharp.App\bin\Debug\NeuralNetwork.pdb
