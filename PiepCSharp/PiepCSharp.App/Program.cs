@@ -4,37 +4,69 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Compression;
+using NeuralNetwork;
 namespace PiepCSharp.App
 {
      class Program
     {
-        private const string Example = "saya suka sama susu situ";
+        
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("asasa");
-            var huffman = new Huffman<char>(Example);
-            /*1. Encode String*/
-            List<int> encoding = huffman.Encode(Example);
-            /*2. Decode Encoding */
-            List<char> decoding = huffman.Decode(encoding);
 
-            var outString = new string(decoding.ToArray());
+            List<int> text = new List<int>();
+            text.Add(100);
+            text.Add(100);
+            text.Add(100);
+            text.Add(100);
+            text.Add(100);
+            text.Add(100);
+            text.Add(200);
+            text.Add(200);
+            text.Add(200);
+            text.Add(100);
+            text.Add(250);
+            text.Add(100);
+            text.Add(200);
+            text.Add(100);
+            text.Add(250);
+           
+            // Tampil Data
+            Console.WriteLine("Data Asli");
+            foreach (int item in text)
+            {
+                Console.Write("{0} ",item);
+            }
+            Console.WriteLine("\nJumlah Bit Data Asli {0} x 8 = {1} bit",text.Count,text.Count*8);
+            var huffman = new Huffman<int>(text);
+            Console.WriteLine("\nData Encode");
+            List<int> encoding = huffman.Encode(text);
+            foreach (int item in encoding)
+            {
+                Console.Write("{0} ",item);
+            }
+            Console.WriteLine("\nJumlah Bit Data Encoding {0}", encoding.Count);
 
-            Console.WriteLine(outString == Example ? "Encoding/Worked" : "Encoding/Decoding Failed");
+            List<int> decoding = huffman.Decode(encoding);
 
-            var chars = new HashSet<char>(Example);
-            foreach (char c in chars)
+            Console.WriteLine("\nData Decoding");
+            foreach (int item in decoding)
+            {
+                Console.Write("{0} ",item);
+            }
+            Console.WriteLine("\n\nDetail Compressed");
+
+            var ints = new HashSet<int>(text);
+            foreach (int c in ints)
             {
                 encoding = huffman.Encode(c);
-                Console.Write("{0}: ", c);
-
+                Console.Write("{0} : ",c);
                 foreach (int bit in encoding)
                 {
-                    Console.Write("{0} ", bit);
+                    Console.Write("{0}",bit);
                 }
                 Console.WriteLine();
             }
+            
             Console.ReadLine();
         }
     }

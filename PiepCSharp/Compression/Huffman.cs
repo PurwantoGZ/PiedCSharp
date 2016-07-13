@@ -285,30 +285,5 @@ namespace Compression
         }
     }
 
-    internal class Program
-    {
-        private const string Example = "this is an example for huffman encoding";
-
-        private static void Main()
-        {
-            var huffman = new Huffman<char>(Example);
-            List<int> encoding = huffman.Encode(Example);
-            List<char> decoding = huffman.Decode(encoding);
-            var outString = new string(decoding.ToArray());
-            Console.WriteLine(outString == Example ? "Encoding/decoding worked" : "Encoding/Decoding failed");
-
-            var chars = new HashSet<char>(Example);
-            foreach (char c in chars)
-            {
-                encoding = huffman.Encode(c);
-                Console.Write("{0}:  ", c);
-                foreach (int bit in encoding)
-                {
-                    Console.Write("{0}", bit);
-                }
-                Console.WriteLine();
-            }
-            Console.ReadKey();
-        }
-    }
+    
 }
